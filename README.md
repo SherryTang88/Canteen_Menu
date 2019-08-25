@@ -5,11 +5,16 @@
   1. Sign in as admin -> For canteen store owners to set or delete menu
   2. Sign in as user -> For customer to view available menu</p><br>
   
-  
+Before starting, please use pip to install the following two python packages:
+
+ * pandas
+ * easygui
+ 
 To start the application, please save the py file and csv file (severs as local database) to the same directory. 
 Then use terminal cd to the directory and run command line:
 
-#### $ python3 canteen_menu.py -d menu_database.csv
+#### For mac : $ python3 canteen_menu.py -d menu_database.csv
+#### For windows : python canteen_menu.py -d menu_database.csv
 
 <br>Notes for Admin:
 
