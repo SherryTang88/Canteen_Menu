@@ -17,7 +17,6 @@ timenow = datetime.datetime.now().time()
 
 #read in menu from csv database
 menu = pd.read_csv(database)
-menu = pd.read_csv("menu.csv")
 for index, row in menu.iterrows():
     row['start_time']=datetime.time(row['start_hour'],row['start_min'])
     menu['start_time']=row['start_time']
