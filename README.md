@@ -3,7 +3,7 @@
  <p>This application allows users to:
 
   1. Sign in as admin -> For canteen store owners to set or delete menu
-  2. Sign in as user -> For Customer to view available menu</p><br>
+  2. Sign in as user -> For customer to view available menu</p><br>
   
   
 To start the application, please save the py file and csv file (severs as local database) to the same directory. 
