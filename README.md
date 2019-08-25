@@ -8,7 +8,7 @@
 Before starting, please use pip to install the following two python packages:
 
  * pandas
- * easygui
+ * easygui<br>
  
 To start the application, please save the py file and csv file (severs as local database) to the same directory. 
 Then use terminal cd to the directory and run command line:
